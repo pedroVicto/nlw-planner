@@ -76,7 +76,11 @@ export function CreateTripPage() {
 
   function createTrip(event: FormEvent <HTMLFormElement>) {
     event.preventDefault()
-
+    console.log(destination)
+    console.log(ownerName)
+    console.log(ownerEmail)
+    console.log(eventStartEndDates)
+    
 
     navigate(`/trips/123`)
 
